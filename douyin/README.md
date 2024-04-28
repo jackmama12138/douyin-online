@@ -1,9 +1,10 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-
-new value
+git config --global user.name="showMaker"
+git config --global user.email="946519656@qq.com"
+git init
+git add .
+git commit -m "1.0"
+git remote add origin 你的远程仓库URL
+git pull
+git push -u origin master
+报错解决
+git config --global http.version HTTP/1.1
